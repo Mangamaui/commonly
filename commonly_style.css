@@ -1,0 +1,287 @@
+/* line 20, ../sass/commonly_style.scss */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 25, ../sass/commonly_style.scss */
+body {
+  background-color: #ffebe2;
+  color: #4e395d;
+  font-family: "Segoe UI",sans-serif;
+  font-size: 12px;
+  height: 100%;
+}
+
+/* line 33, ../sass/commonly_style.scss */
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+/* line 37, ../sass/commonly_style.scss */
+h1 {
+  margin: 50px auto 0 auto;
+  text-indent: -9999px;
+  background: url("images/commonly_logo.png") no-repeat;
+  width: 468px;
+  height: 147px;
+}
+
+/* line 45, ../sass/commonly_style.scss */
+h2 {
+  width: 525px;
+  text-align: right;
+  top: -18px;
+  position: relative;
+  display: block;
+  color: #b5a3ae;
+  font-size: 15px;
+}
+
+/* line 55, ../sass/commonly_style.scss */
+h3 {
+  font-size: 16px;
+  text-align: center;
+  z-index: 1;
+  padding: 35px 0 40px 0;
+  color: #4e395d;
+}
+
+/* line 63, ../sass/commonly_style.scss */
+h4 {
+  letter-spacing: 1px;
+  text-align: center;
+  height: 24px;
+  font-size: 20px;
+  margin: 20px 0;
+  color: #4e395d;
+}
+
+/* line 72, ../sass/commonly_style.scss */
+div#twirl {
+  position: absolute;
+  top: 480px;
+  height: 192px;
+  width: 100%;
+  z-index: -1;
+  background: url("images/swirl.png") center repeat-x;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  /* For IE8 and earlier */
+}
+
+/* line 83, ../sass/commonly_style.scss */
+div#container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 650px;
+  position: relative;
+  min-height: 100%;
+}
+
+/* line 91, ../sass/commonly_style.scss */
+div#content {
+  padding-bottom: 50px;
+}
+
+/* line 95, ../sass/commonly_style.scss */
+div#footer {
+  bottom: 0;
+  font-size: 16px;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: #b5a3ae;
+}
+/* line 102, ../sass/commonly_style.scss */
+div#footer a {
+  text-decoration: none;
+  color: #b5a3ae;
+}
+
+/* line 108, ../sass/commonly_style.scss */
+.hidden-image {
+  bottom: 0;
+  height: auto;
+  position: absolute;
+  right: 0;
+  width: 1px;
+}
+
+/*-------------------- Look up Form ------------------------------------------*/
+/* line 117, ../sass/commonly_style.scss */
+div#lookupform {
+  background-color: rgba(248, 177, 149, 0.15);
+  position: relative;
+  height: 400px;
+  margin: 50px auto 0 auto;
+  border-radius: 5px;
+}
+/* line 124, ../sass/commonly_style.scss */
+div#lookupform form {
+  position: relative;
+}
+
+/* line 129, ../sass/commonly_style.scss */
+div.left, div.right {
+  float: left;
+  width: 200px;
+  margin-bottom: 26px;
+}
+
+/* line 134, ../sass/commonly_style.scss */
+div.left {
+  margin-left: 98px;
+  margin-right: 50px;
+}
+
+/* line 139, ../sass/commonly_style.scss */
+div#twitterpic1, div#twitterpic2 {
+  border: #4e395d 3px solid;
+  border-radius: 5px;
+  margin-left: 22px;
+  height: 138px;
+  width: 138px;
+  background-image: url(images/egg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100%;
+  /* Safari 3.0 */
+  -moz-background-size: 100%;
+  /* Gecko 1.9.2 (Firefox 3.6) */
+  -o-background-size: 100%;
+  /* Opera 9.5 */
+  background-size: 100%;
+  background-color: #4e395d;
+}
+
+/* line 154, ../sass/commonly_style.scss */
+input[type="text"] {
+  font-size: 16px;
+  margin-top: 40px;
+  width: 170px;
+  height: 32px;
+  padding: 0 6px;
+  border: #4e395d 1px solid;
+  border-radius: 4px;
+  background-color: #ffebe2;
+  background-color: rgba(255, 235, 226, 0.5);
+  color: #4e395d;
+}
+
+/* line 166, ../sass/commonly_style.scss */
+div.right input[type="text"] {
+  text-align: right;
+}
+
+/* line 170, ../sass/commonly_style.scss */
+input[type="submit"] {
+  clear: both;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+  border: none;
+  width: 154px;
+  height: 32px;
+  background-color: #4e395d;
+  color: white;
+  font-size: 16px;
+  position: relative;
+}
+/* line 182, ../sass/commonly_style.scss */
+input[type="submit"]:hover {
+  background-color: #6c5b7b;
+}
+
+/* line 187, ../sass/commonly_style.scss */
+.loader {
+  background: transparent url(images/loader.gif) center no-repeat;
+  bottom: 4px;
+  display: none;
+  height: 24px;
+  margin-left: 97px;
+  position: absolute;
+  left: 50%;
+  width: 24px;
+}
+
+/* line 198, ../sass/commonly_style.scss */
+form.loading .loader {
+  display: block;
+}
+
+/* line 202, ../sass/commonly_style.scss */
+::-webkit-input-placeholder {
+  color: #4e395d;
+}
+
+/* line 205, ../sass/commonly_style.scss */
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: #4e395d;
+}
+
+/* line 208, ../sass/commonly_style.scss */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #4e395d;
+}
+
+/* line 211, ../sass/commonly_style.scss */
+:-ms-input-placeholder {
+  color: #4e395d;
+}
+
+/*----------------------------- resultdiv ------------------------------------*/
+/* line 216, ../sass/commonly_style.scss */
+div#results {
+  min-height: 150px;
+}
+/* line 218, ../sass/commonly_style.scss */
+div#results p {
+  font-size: 20px;
+  color: #f67280;
+  text-align: center;
+}
+/* line 223, ../sass/commonly_style.scss */
+div#results ul {
+  text-align: center;
+  list-style: none;
+}
+/* line 226, ../sass/commonly_style.scss */
+div#results ul li {
+  display: inline-block;
+}
+
+/* line 232, ../sass/commonly_style.scss */
+div#results table {
+  margin: 0 auto 0 auto;
+}
+/* line 234, ../sass/commonly_style.scss */
+div#results table td {
+  padding: 10px;
+}
+/* line 236, ../sass/commonly_style.scss */
+div#results table td img {
+  border: white 3px solid;
+  border-radius: 5px;
+  background-color: white;
+  height: 54px;
+  width: 54px;
+  text-align: center;
+  overflow: hidden;
+}
+/* line 243, ../sass/commonly_style.scss */
+div#results table td img:hover {
+  border: #4e395d 3px solid;
+  border-radius: 5px;
+}
+
+/* line 250, ../sass/commonly_style.scss */
+div.error {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #f67280;
+  text-align: center;
+}
